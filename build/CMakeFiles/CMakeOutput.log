@@ -1,0 +1,59 @@
+The system is: Linux - sh: 0: getcwd() failed: No such file or directory
+5.0.0-23-generic - sh: 0: getcwd() failed: No such file or directory
+x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/nathan/git/RingBuffer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2989a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2989a.dir/build.make CMakeFiles/cmTC_2989a.dir/build
+make[1]: Entering directory '/home/nathan/git/RingBuffer/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2989a.dir/testCCompiler.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_2989a.dir/testCCompiler.c.o   -c /home/nathan/git/RingBuffer/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_2989a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2989a.dir/link.txt --verbose=1
+/usr/bin/gcc-7      CMakeFiles/cmTC_2989a.dir/testCCompiler.c.o  -o cmTC_2989a 
+make[1]: Leaving directory '/home/nathan/git/RingBuffer/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/nathan/git/RingBuffer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6228b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6228b.dir/build.make CMakeFiles/cmTC_6228b.dir/build
+make[1]: Entering directory '/home/nathan/git/RingBuffer/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6228b.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_6228b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_6228b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6228b.dir/link.txt --verbose=1
+/usr/bin/gcc-7      CMakeFiles/cmTC_6228b.dir/CMakeCCompilerABI.c.o  -o cmTC_6228b 
+make[1]: Leaving directory '/home/nathan/git/RingBuffer/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/nathan/git/RingBuffer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46a43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46a43.dir/build.make CMakeFiles/cmTC_46a43.dir/build
+make[1]: Entering directory '/home/nathan/git/RingBuffer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46a43.dir/testCXXCompiler.cxx.o
+/usr/bin/g++-7     -o CMakeFiles/cmTC_46a43.dir/testCXXCompiler.cxx.o -c /home/nathan/git/RingBuffer/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_46a43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46a43.dir/link.txt --verbose=1
+/usr/bin/g++-7       CMakeFiles/cmTC_46a43.dir/testCXXCompiler.cxx.o  -o cmTC_46a43 
+make[1]: Leaving directory '/home/nathan/git/RingBuffer/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/nathan/git/RingBuffer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6888/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a6888.dir/build.make CMakeFiles/cmTC_a6888.dir/build
+make[1]: Entering directory '/home/nathan/git/RingBuffer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a6888.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++-7     -o CMakeFiles/cmTC_a6888.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a6888
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6888.dir/link.txt --verbose=1
+/usr/bin/g++-7       CMakeFiles/cmTC_a6888.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a6888 
+make[1]: Leaving directory '/home/nathan/git/RingBuffer/build/CMakeFiles/CMakeTmp'
+
+

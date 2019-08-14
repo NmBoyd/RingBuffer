@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nathan/git/RingBuffer/include/RingBuff.h
+stdint.h
+-
+iostream
+-
+stdlib.h
+-
+stdio.h
+-
+
+/home/nathan/git/RingBuffer/src/RingBuff.cpp
+../include/RingBuff.h
+/home/nathan/git/RingBuffer/include/RingBuff.h
+

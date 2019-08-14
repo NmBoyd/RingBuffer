@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCurveFitting_SRC.a  CMakeFiles/CurveFitting_SRC.dir/src/RingBuff.cpp.o
+/usr/bin/ranlib libCurveFitting_SRC.a
